@@ -4,6 +4,7 @@ const ls = new LS()
 const form = document.querySelector('#book-form')
 form.addEventListener('submit', addBook)
 
+
 document.addEventListener('DOMContentLoaded', getBooks)
 
 const booksTable = document.querySelector('#books')
